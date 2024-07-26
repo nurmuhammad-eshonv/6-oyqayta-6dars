@@ -1,0 +1,48 @@
+.form{
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    padding: 20px;
+    justify-content: center;
+}
+.form input, form textarea, form button{
+    width: 500px;
+    padding: 15px;
+    background: #e4ec04;
+    border:none
+}
+.form button{
+    background: rgb(10, 192, 212);
+    border:none;
+    color:white;
+    font-size: 19px;
+}
+.error{
+    color:red;
+    margin-top: 0px;
+    margin-bottom: -4px;
+}
+body{
+    background-color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+   font-size: 30px;
+   text-align: center;
+   color:white;position: absolute;
+   margin-left: 42%;
+   margin-top: 100px;
+}
+
+.desc{
+    color:rgb(244, 245, 248);
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 139px;
+    
+
+}
